@@ -64,6 +64,21 @@ body {
     opacity: 1;
 }
 
+#search input[type="text"] {
+    background: url(../img/search-dark.png) no-repeat 10px 6px;
+    background-color: transparent;
+    opacity: 0.75;
+    border: 2px solid #737070;
+    color: #141313;
+    width: 180px;
+    padding: 6px 0px 6px 30px;
+    border-radius: 20px;
+}
+
+#search input[type="text"]:focus {
+    width: 250px;
+}
+
 /* INTRO */
 
 .mama{
