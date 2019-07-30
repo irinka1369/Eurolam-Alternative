@@ -133,15 +133,11 @@ display: flex;
     margin-top: 2em;
 }
 
-.novosti-h2 {
+.novosti-h2, .video-h2, .contacts-h2 {
     text-align: center;
     margin: 5
 }
 
-.video-h2 {
-    text-align: center;
-    margin: 5
-}
 
 .col {
     padding-bottom: 5px;
@@ -188,9 +184,10 @@ display: flex;
 
 .flex {
     display: flex;
+    max-width: 980px;
     flex-direction: row;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -210,4 +207,10 @@ display: flex;
     .flex {
         flex-wrap: wrap;
     }
+/******* Contact Form *******/
+
+#main-info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
